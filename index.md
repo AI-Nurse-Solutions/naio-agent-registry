@@ -5,6 +5,8 @@
 Browse all v1 agents below. See [GOVERNANCE.md](./GOVERNANCE.md) for the EDENA tiering rubric.
 ⚠️ Inclusion is **not** clinical validation or endorsement. See the [README](./README.md) disclaimer.
 
+> 🧭 **New here, or not a coder?** Start with the [**Agent Framework Field Guide for Nurse Stewards**](./FIELD-GUIDE.md) — what each kind of framework does, its autonomy ceiling, and the *one governance question* to ask. Governance literacy, not a coding course.
+
 ## By EDENA tier
 
 ### 🟢 Green — low risk, use freely with basic hygiene

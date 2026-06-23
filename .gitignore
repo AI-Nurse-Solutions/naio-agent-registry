@@ -1,0 +1,14 @@
+# Vetting workspace — local clones, never committed
+_vet/
+
+# OS / editor cruft
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/

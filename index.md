@@ -44,6 +44,17 @@ Browse all v1 agents below. See [GOVERNANCE.md](./GOVERNANCE.md) for the EDENA t
 | [NeMo Guardrails](./registry/nemo-guardrails.md) | `NVIDIA-NeMo/Guardrails` | Apache-2.0 | L2 | Conversation-flow / topic rails |
 | [LLM Guard](./registry/llm-guard.md) | `protectai/llm-guard` | MIT | L2 | PII/PHI-leak + prompt-injection scanning |
 
+### 📜 Governance References — frameworks & standards (read, not run)
+
+> Not software — the regulatory and risk frameworks that define *what* responsible deployment requires. These set the bar the guardrail tools above help you meet. Listed as authoritative references, not endorsements; they do not constitute legal or compliance advice.
+
+| Reference | Source | What it is | Why it matters for nurse-led AI |
+|-----------|--------|------------|----------------------------------|
+| **EU AI Act** | [European Commission](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai) | Binding EU law. Risk tiers: Unacceptable / High-Risk / Limited / Minimal. | Most healthcare AI falls in **High-Risk**. Full high-risk obligations take effect **Aug 2, 2026**. Maps closely to EDENA's tiering instinct. |
+| **NIST AI RMF 1.0** | [NIST (US)](https://www.nist.gov/itl/ai-risk-management-framework) | Voluntary US framework: **Govern, Map, Measure, Manage.** | A practical, function-based way to structure governance — the closest public analogue to operationalizing the EDENA Stewardship Lens. |
+
+> **EDENA cross-walk (informal):** 🔴 Red ≈ EU "Unacceptable/High-Risk patient-facing"; 🟠 Orange ≈ "High-Risk requiring human oversight"; 🟡 Yellow ≈ "Limited-risk, transparency obligations"; 🟢 Green ≈ "Minimal-risk." This is an orientation aid, **not** a legal classification.
+
 ## Slate at a glance
 
 - **13 agents** · **5 🟢 / 6 🟡 / 1 🟠 / 1 🔴** — a deliberate ladder demonstrating EDENA in public

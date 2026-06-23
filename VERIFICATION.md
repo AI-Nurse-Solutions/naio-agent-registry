@@ -24,6 +24,17 @@ All entries verified on **2026-06-23** against the live GitHub API and repositor
 | Awesome-AI-Agents-for-Healthcare | ⚠️ NONE | ~1.1k | 2026-06-04 | Resource/index (survey-backed) |
 | OpenClaw-Medical-Skills | ⚠️ NONE | ~2.7k | 2026-06-18 | Structure: 609 py / 991 md skills; clinical validity unverified |
 | Multi-Agent-Medical-Assistant | Apache-2.0 ✅ | ~906 | (active) | Structure: LangGraph-based, guardrails topic; diagnostic claim unvalidated |
+| guardrails-ai/guardrails | Apache-2.0 ✅ | ~7.0k | 2026-06-23 | **EXECUTED:** pip install + `import guardrails` ✅; 351 py |
+| NVIDIA-NeMo/Guardrails | Apache-2.0 ✅ | ~6.5k | 2026-06-23 | Structure: 764 py (org moved from NVIDIA/NeMo-Guardrails) |
+| protectai/llm-guard | MIT ✅ | ~3.1k | 2025-12-15 | Structure: 217 py PII/injection scanner |
+
+## v1.1 additions (gleaned from caramaschiHG/awesome-ai-agents-2026, CC0-1.0)
+
+Added a **Governance & Guardrails** category — the open-source substrate of EDENA. Cuts during this pass:
+- **protectai/rebuff** — ARCHIVED (last push 2024-08). Cut.
+- **cittaverse/core** — 0 stars, no license. Too immature. Cut.
+- **prism-scanner** — only ~11 stars, very new. Watch, not listed.
+- **Healthcare/Therapy section** of the source list — almost entirely proprietary SaaS (Woebot, Wysa, Replika, etc.), patient-facing mental-health = 🔴 class. Not registry material (we don't list closed SaaS as build-with agents).
 
 ## Cuts during verification
 

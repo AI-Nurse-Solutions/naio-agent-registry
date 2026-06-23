@@ -34,10 +34,20 @@ Browse all v1 agents below. See [GOVERNANCE.md](./GOVERNANCE.md) for the EDENA t
 |-------|------|---------|----------|----------|
 | [Multi-Agent Medical Assistant](./registry/multi-agent-medical-assistant.md) | `souvikmajumder26/...` | Apache-2.0 | L3 | Patient-facing diagnostic chatbot — **study, do not deploy** |
 
+## 🛡️ Governance & Guardrails — the EDENA substrate (use these to govern the agents above)
+
+> The open-source tools that implement "agents propose, humans judge." A registry that lists agents should also list the tools that keep them safe.
+
+| Tool | Repo | License | Autonomy | Role |
+|------|------|---------|----------|------|
+| [Guardrails AI](./registry/guardrails-ai.md) | `guardrails-ai/guardrails` | Apache-2.0 | L2 | Output structure/type/quality validation |
+| [NeMo Guardrails](./registry/nemo-guardrails.md) | `NVIDIA-NeMo/Guardrails` | Apache-2.0 | L2 | Conversation-flow / topic rails |
+| [LLM Guard](./registry/llm-guard.md) | `protectai/llm-guard` | MIT | L2 | PII/PHI-leak + prompt-injection scanning |
+
 ## Slate at a glance
 
-- **10 agents** · **4 🟢 / 4 🟡 / 1 🟠 / 1 🔴** — a deliberate ladder demonstrating EDENA in public
-- **Tracks:** 7 entrepreneurship + 3 healthcare-adaptable
-- **Licenses:** 8 clean (MIT/Apache-2.0), 2 no-license (link-only)
-- **Liveness:** all 10 active as of 2026-06-23
+- **13 agents** · **5 🟢 / 6 🟡 / 1 🟠 / 1 🔴** — a deliberate ladder demonstrating EDENA in public
+- **Tracks:** 7 entrepreneurship + 3 healthcare-adaptable + 3 governance & guardrails
+- **Licenses:** 11 clean (MIT/Apache-2.0), 2 no-license (link-only)
+- **Liveness:** all 13 active as of 2026-06-23
 - See [VERIFICATION.md](./VERIFICATION.md) for how each was vetted.

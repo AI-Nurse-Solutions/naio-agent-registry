@@ -38,7 +38,7 @@ This registry operates under the **EDENA Stewardship Lens**. See [`GOVERNANCE.md
 
 ## Roadmap
 
-- **v1 (current):** 10 deeply-vetted, EDENA-carded agents, curated by NAIO.
+- **v1 (current):** 13 deeply-vetted, EDENA-carded entries (10 agents + 3 governance/guardrails tools), curated by NAIO.
 - **Phase 2:** NIN community contributions ("Nurse-Led Agent Library") — nurses submit and steward entries to this standard.
 - **Later:** Donations to support the initiative (after NAIO non-profit registration completes).
 
